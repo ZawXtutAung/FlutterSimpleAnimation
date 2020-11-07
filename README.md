@@ -17,7 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 
 
 **<--AnimationController animationController-->**
-```InkWell(
+
+```dart
+InkWell(
               onTap: () {
                 if (animationController.isCompleted) {
                   animationController.reverse();
