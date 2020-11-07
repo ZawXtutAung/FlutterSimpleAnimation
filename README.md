@@ -17,14 +17,14 @@ samples, guidance on mobile development, and a full API reference.
 
 
 **<--AnimationController animationController-->**
-`(InkWell(
+```InkWell(
               onTap: () {
                 if (animationController.isCompleted) {
                   animationController.reverse();
                 } else {
                   animationController.forward();
                 }
-              },)` text
+              },)```
 
               `vsync=with SingleTickerProviderStateMixin`
 
