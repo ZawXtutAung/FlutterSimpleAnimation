@@ -26,7 +26,18 @@ InkWell(
                 } else {
                   animationController.forward();
                 }
-              },)```
+              },)
+
+```dart
+AnimationController animationController;
+  Animation<double> animation;
+  void initState() {
+    super.initState();
+    animationController =
+        AnimationController(vsync: this, duration: Duration(seconds: 1));
+    animation = Tween<double>(begin: 0.0, end: pi).animate(animationController);
+    animationController.forward();
+  }
 
               `vsync=with SingleTickerProviderStateMixin`
 
