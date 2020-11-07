@@ -15,8 +15,9 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-<--AnimationController animationController-->
-**Bold** and _Italic_ and `(InkWell(
+
+**<--AnimationController animationController-->**
+`(InkWell(
               onTap: () {
                 if (animationController.isCompleted) {
                   animationController.reverse();
@@ -25,6 +26,6 @@ samples, guidance on mobile development, and a full API reference.
                 }
               },)` text
 
-              vsync=with SingleTickerProviderStateMixin
+              `vsync=with SingleTickerProviderStateMixin`
 
 # FlutterSimpleAnimation
