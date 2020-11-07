@@ -16,14 +16,15 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 <--AnimationController animationController-->
-(InkWell(
+**Bold** and _Italic_ and `(InkWell(
               onTap: () {
                 if (animationController.isCompleted) {
                   animationController.reverse();
                 } else {
                   animationController.forward();
                 }
-              },)
+              },)` text
+
               vsync=with SingleTickerProviderStateMixin
 
 # FlutterSimpleAnimation
